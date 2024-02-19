@@ -1,34 +1,33 @@
-#File Search Tool
-Project Description
-The File Search Tool is a PowerShell script that creates a Graphical User Interface (GUI) application for searching files on your system. It leverages the .NET Framework's System.Windows.Forms and System.Drawing assemblies to provide a user-friendly interface where users can input search criteria and find files efficiently. This tool is designed to run on Windows systems where PowerShell is available, making it a versatile addition to both personal and professional toolsets.
+### Project Description
 
-> Features
-GUI Interface: Offers a straightforward and intuitive graphical interface for file searching.
-Custom Search Criteria: Users can specify various search parameters to refine search results.
-Resizable Window: The application window adjusts dynamically to user resizing, ensuring a consistent user experience.
+**FileSearchTool** is a PowerShell-based utility designed to streamline the process of searching for files across the system. It leverages the .NET Framework's System.Windows.Forms and System.Drawing assemblies to provide a graphical user interface (GUI), enhancing user experience by offering a more interactive and intuitive way of file searching compared to traditional command-line tools. This tool is especially useful for users who prefer a visual approach to file management and operations.
 
-> Use Cases
-File Organization: Quickly find files scattered across your system to organize or declutter your storage.
-Project Management: Locate project-related files without manually browsing through directories.
-Data Analysis: For analysts or IT professionals needing to find specific datasets or logs among extensive file systems.
-Backup and Archiving: Identify files for backup or archiving by searching for them based on specific criteria.
+### Use Cases
 
-> How to Use
-Prerequisites: Ensure you have PowerShell installed on your Windows system.
+- **General File Searching**: Ideal for users who need to quickly locate files without remembering complex command-line queries. It supports searching by various criteria, making it versatile for different scenarios.
+- **IT and System Administration**: System administrators can use FileSearchTool to manage files across multiple systems, ensuring efficient file organization and accessibility.
+- **Data Management**: Useful for managing large datasets or archives by enabling efficient search operations, thereby reducing the time spent on manual searches.
+- **Documentation and Reporting**: Assists in generating reports or documentation by locating relevant files swiftly.
 
-> Running the Script:
-Open PowerShell as an administrator.
-Navigate to the directory containing FileSearchTool.ps1.
-Execute the script by typing .\FileSearchTool.ps1 and pressing Enter.
+### How to Use
 
-> Using the Application:
-Once the application launches, enter your search criteria in the provided fields.
-Click the search button to initiate the search process.
-The application will display a list of files matching your criteria, which you can then manage as needed.
+1. **Prerequisites**: Ensure PowerShell is installed on your system and you have permissions to run scripts.
 
-> Requirements
-Windows Operating System with PowerShell.
-.NET Framework (Typically included in Windows).
+2. **Launching the Tool**:
+    - Open PowerShell as an administrator.
+    - Navigate to the directory where `FileSearchTool.ps1` is located.
+    - Execute the script by typing `.\FileSearchTool.ps1` and pressing Enter.
 
-> Contributions
-Contributions are welcome! If you'd like to improve the File Search Tool or suggest new features, please feel free to fork the repository, make your changes, and submit a pull request.
+3. **Using the Interface**:
+    - Upon launch, the GUI will present various options for file searching.
+    - Enter your search criteria and initiate the search process.
+    - The tool will display the results within the GUI, allowing you to interact with the found files directly.
+
+4. **Customization and Advanced Usage**:
+    - Advanced users can modify the script to add more specific search criteria or to integrate with other tools and scripts for enhanced functionality.
+
+### Note
+
+This tool is designed to run on systems where PowerShell and the necessary .NET Framework components are available. Users are encouraged to review and comply with their organization's security policies before running or modifying the script.
+
+For any issues or contributions, please visit the project's GitHub repository to open an issue or submit a pull request. Your feedback and contributions are highly appreciated to improve the tool's functionality and usability.
